@@ -30,7 +30,9 @@ public class appLaunch {
 		caps.setCapability("appium:autoGrantPermissions", true);
 
 		AndroidDriver driver =new AndroidDriver(new URL("http://127.0.0.1:4723"), caps);
-	    driver.get("https://www.youtube.com");
+	    driver.get("https://vizzainsurance.com/home");
+	    
+	    
        System.out.println("appium run successfully...");
 	}
 
